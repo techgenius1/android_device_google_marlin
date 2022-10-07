@@ -710,12 +710,6 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /vendor/etc/msm_irqb
     group root
      task_profiles ServiceCapacityLow
 
-service vendor.atfwd /vendor/bin/ATFWD-daemon
-    class late_start
-    user system
-    group system radio
-    disabled
-
 service vendor.ssr_diag /vendor/bin/ssr_diag
     class late_start
     user system

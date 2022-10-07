@@ -16,7 +16,6 @@ vendor/app/embms/oem/verizon_config_params.txt
 -vendor/app/radioconfig/radioconfig.apk
 -vendor/app/shutdownlistener/shutdownlistener.apk
 -vendor/app/vzw_msdc_api/vzw_msdc_api.apk
-vendor/bin/ATFWD-daemon
 vendor/bin/PktRspTest
 vendor/bin/StoreKeybox
 vendor/bin/WifiLogger_app
