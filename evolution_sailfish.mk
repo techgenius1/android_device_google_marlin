@@ -8,7 +8,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_sailfish.mk)
 
--include device/google/marlin/device-lineage.mk
+-include device/google/marlin/device.mk
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := evolution_sailfish
