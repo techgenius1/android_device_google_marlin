@@ -630,7 +630,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    libcrypto_shim
+    libcrypto_shim.vendor
 
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true \
