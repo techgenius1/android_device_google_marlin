@@ -5,7 +5,6 @@
 -vendor/app/QtiTelephonyService/QtiTelephonyService.apk
 -vendor/app/RCSBootstraputil/RCSBootstraputil.apk
 -vendor/app/SecureExtAuthService/SecureExtAuthService.apk
-vendor/app/atfwd/atfwd.apk
 vendor/app/colorservice/colorservice.apk
 vendor/app/embms/embms.apk
 vendor/app/embms/oem/config_params.xml
