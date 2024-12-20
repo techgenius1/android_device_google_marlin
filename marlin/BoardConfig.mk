@@ -187,9 +187,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 #NFC
 NXP_CHIP_TYPE := 3
 
-# Testing related defines
-BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/sailin-setup.sh
-
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
 
