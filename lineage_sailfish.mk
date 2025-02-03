@@ -10,6 +10,9 @@ $(call inherit-product, device/google/marlin/aosp_sailfish.mk)
 
 -include device/google/marlin/device-lineage.mk
 
+# Use Mini Gapps
+TARGET_USES_MINI_GAPPS := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_sailfish
 PRODUCT_BRAND := google

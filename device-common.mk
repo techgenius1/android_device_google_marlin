@@ -675,3 +675,21 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TimeKeep \
     timekeep
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# Ship GCam
+$(call inherit-product, vendor/google/camera/config.mk)
+
+# Add GPhotos for mini gapps
+PRODUCT_PACKAGES += \
+    Photos
+
+# Fix GMS Bug
+PRODUCT_PACKAGES := $(filter-out SCONE-v37764, $(PRODUCT_PACKAGES))
+
+# ART lowmem config
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.art_lowmem=true

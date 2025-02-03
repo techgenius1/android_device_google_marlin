@@ -25,7 +25,9 @@ PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 -include device/google/marlin/device-common.mk
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += device/google/marlin/sailfish/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    device/google/marlin/sailfish/overlay \
+    device/google/marlin/sailfish/overlay-evolution
 
 # display
 PRODUCT_PROPERTY_OVERRIDES += \

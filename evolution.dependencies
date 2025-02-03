@@ -1,0 +1,32 @@
+[	
+  {
+    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "remote": "github-non-los",
+    "branch": "lineage-22.1"
+  },
+  {
+    "repository": "LineageOS/android_kernel_google_marlin",
+    "target_path": "kernel/google/marlin",
+    "remote": "github-non-los",
+    "branch": "lineage-22.1"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_google_marlin",
+    "target_path": "vendor/google/marlin",
+    "remote": "github-non-los",
+    "branch": "lineage-22.1"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_google_sailfish",
+    "target_path": "vendor/google/sailfish",
+    "remote": "github-non-los",
+    "branch": "lineage-22.1"
+  },
+  {
+    "repository": "techgenius1/vendor_Camera",
+    "target_path": "vendor/google/camera",
+    "remote": "github-non-los",
+    "branch": "vic"
+  }
+]
