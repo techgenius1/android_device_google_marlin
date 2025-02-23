@@ -693,3 +693,6 @@ PRODUCT_PACKAGES := $(filter-out SCONE-v37764, $(PRODUCT_PACKAGES))
 # ART lowmem config
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.art_lowmem=true
+
+# f2fs /data partition 
+TARGET_USERIMAGES_USE_F2FS := true
