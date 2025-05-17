@@ -27,3 +27,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+
+DEVICE_PACKAGE_OVERLAYS += \
+    device/google/marlin/sailfish/overlay \
+    device/google/marlin/sailfish/overlay-evolution

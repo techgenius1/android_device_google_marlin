@@ -28,3 +28,7 @@ PRODUCT_AAPT_PREBUILT_DPI += xxxhdpi
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
+
+DEVICE_PACKAGE_OVERLAYS += \
+    device/google/marlin/sailfish/overlay \
+    device/google/marlin/sailfish/overlay-evolution
