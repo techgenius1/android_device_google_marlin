@@ -11,6 +11,9 @@ $(call inherit-product, device/google/marlin/device-marlin.mk)
 # Use Mini Gapps
 TARGET_USES_MINI_GAPPS := true
 
+# Add ViperFX
+TARGET_INCLUDE_VIPERFX := true
+
 # Remove apps
 TARGET_INCLUDE_ACCORD := false
 BUILD_BCR := false
