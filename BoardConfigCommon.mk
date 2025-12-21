@@ -24,17 +24,6 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := kryo
 
-# Audio
-AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
-AUDIO_FEATURE_ENABLED_SND_MONITOR := true
-BOARD_USES_ALSA_AUDIO := true
-TARGET_USES_QCOM_MM_AUDIO := true
-
-# Bluetooth
-BOARD_HAVE_BLUETOOTH_QCOM := true
-BOARD_HAS_QCA_BT_ROME := true
-BOARD_USES_WIPOWER := true
-
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
@@ -109,6 +98,7 @@ BOARD_ROOT_EXTRA_SYMLINKS := /vendor/lib/dsp:/dsp
 # SELinux
 SELINUX_IGNORE_NEVERALLOWS := true
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+include hardware/sony/timekeep/sepolicy/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy/vendor
 BOARD_VENDOR_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy/vendor/verizon
 PRODUCT_PRIVATE_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy/private
